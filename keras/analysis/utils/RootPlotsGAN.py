@@ -9,8 +9,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 plt.switch_backend('Agg')
 
-import ROOTutils as my # common utility functions for root
-from GANutils import safe_mkdir, get_sums
+import analysis.utils.ROOTutils as my # common utility functions for root
+from analysis.utils.GANutils import safe_mkdir, get_sums
 
 ##################################### Plots used in detailed analysis ######################################################
 
