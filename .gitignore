@@ -21,3 +21,6 @@ keras/paramScan/*
 keras/misc/*
 keras/archives/*
 keras/misc/results/*
+keras/auto_test/*
+keras/fp32_test/*
+keras/mp_test/*
