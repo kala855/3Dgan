@@ -56,7 +56,7 @@ def main():
      dscale = 1.
 
    K.set_image_data_format(keras_dformat)
-   
+
    # read data
    if ang:
      X, Y, angle = GetAngleData(real_data, angtype='theta', num_events=num_events)
@@ -256,7 +256,7 @@ def plotshapes(X, generated_images, x, y, z, energy, out_file, labels, log=0, p=
         if error:
            tot_error = (np.mean(errorx) + np.mean(errory) + np.mean(errorz))/3.
            glabel = glabel + ' MRE {:.4f}'.format(np.mean(errorz))
-        leg.AddEntry(h, glabel + labels[i],"l")     
+        leg.AddEntry(h, glabel + labels[i],"l")
    leg.Draw()
    canvas.Update()
    if ifpdf:
