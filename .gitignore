@@ -8,6 +8,8 @@
 *.log
 *.dat
 *.pdf
+*.out
+*.err
 keras/weights/*
 keras/analysis/results/*
 keras/results/*
