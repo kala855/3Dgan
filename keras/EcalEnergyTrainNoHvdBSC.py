@@ -458,7 +458,7 @@ if __name__ == '__main__':
     weightdir = params.weightsdir
     xscale = params.xscale
     warmup_epochs = params.warmupepochs
-    
+
     opt = getattr(keras.optimizers, params.optimizer)
     #opt = RMSprop()
     opt = opt(params.learningRate)# * hvd.size())
