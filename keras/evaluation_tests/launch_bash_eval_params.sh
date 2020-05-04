@@ -6,8 +6,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH --qos=debug
-#SBATCH --time=00-00:40:00
+#SBATCH --time=00-02:00:00
 #SBATCH --exclusive
 
-export OMP_NUM_THREADS=48
-srun ./bash_eval_params.sh
+#export OMP_NUM_THREADS=48
+./bash_eval_params.sh
